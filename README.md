@@ -1,7 +1,20 @@
 ## MultiDoc Chatbot
 
 ### Description
-This project aims to create a chatbot capable of answering questions based on uploaded documents. The chatbot utilizes Natural Language Processing (NLP) techniques to understand user queries and provide relevant responses.
+This project aims to create a chatbot capable of answering questions based on uploaded documents. The chatbot utilizes Natural Language Processing (NLP) techniques to understand user queries and provide relevant responses. 
+
+Implemented this chatbot using the llama-2-70b language model. Here's an explanation of its purpose and the techstack used:
+Purpose: The purpose of this code is to create a chatbot that can interact with users in a conversational manner. Users can ask questions about class lectures, and the chatbot will provide responses based on its understanding of the input.
+Models Used:
+ConversationalRetrievalChain: This is the main component of the chatbot. It manages the conversation flow, retrieves relevant information from the document corpus, and generates responses to user queries.
+HuggingFaceEmbeddings: This model is used to embed the text data into vector representations that can be understood by the conversational models.
+Replicate (llama-2-70b): This is the conversational language model used by the chatbot. It is responsible for understanding user queries, generating responses, and maintaining context within the conversation.
+CharacterTextSplitter: This component splits the input text into smaller chunks for processing, as required by the underlying models.
+FAISS: This is the vector store used to index and search the document corpus efficiently.
+Overall, this code sets up the necessary components to create a chatbot that can effectively respond to user queries about class lectures using the llama-2-70b language model.
+
+![image](https://github.com/abhishict/LectureBot/assets/28643880/ca7c2457-ca72-4440-9012-434308894588)
+
 
 ### Setup Instructions
 1. Create a new virtual environment.
@@ -36,4 +49,7 @@ This project aims to create a chatbot capable of answering questions based on up
 
 ### Contributing
 Contributions to the project are welcome. Please feel free to open issues or pull requests on the GitHub repository.
+
+<img width="1504" alt="Screenshot 2024-04-22 at 2 02 12 AM" src="https://github.com/abhishict/LectureBot/assets/28643880/738ba054-d31a-4417-9b07-948d09a5fe32">
+
 
