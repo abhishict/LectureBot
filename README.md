@@ -5,7 +5,8 @@ This project aims to create a chatbot capable of answering questions based on up
 
 Implemented this chatbot using the llama-2-70b language model. Here's an explanation of its purpose and the techstack used:
 Purpose: The purpose of this code is to create a chatbot that can interact with users in a conversational manner. Users can ask questions about class lectures, and the chatbot will provide responses based on its understanding of the input.
-Models Used:
+
+
 ConversationalRetrievalChain: This is the main component of the chatbot. It manages the conversation flow, retrieves relevant information from the document corpus, and generates responses to user queries.
 HuggingFaceEmbeddings: This model is used to embed the text data into vector representations that can be understood by the conversational models.
 Replicate (llama-2-70b): This is the conversational language model used by the chatbot. It is responsible for understanding user queries, generating responses, and maintaining context within the conversation.
@@ -20,7 +21,7 @@ Overall, this code sets up the necessary components to create a chatbot that can
 1. Create a new virtual environment.
 2. Install dependencies listed in the `requirements.txt` file.
 3. Sign up on the Replicate portal and obtain an API token.
-4. Set up the API token as an environment variable.
+4. Set up the API token as an environment variable and save it in `.env` file
 
 ### Usage
 1. Run the `chatapp.py` file using the command `streamlit run chatapp.py`.
