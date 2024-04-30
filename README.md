@@ -37,6 +37,3 @@ This project aims to create a chatbot capable of answering questions based on up
 ### Contributing
 Contributions to the project are welcome. Please feel free to open issues or pull requests on the GitHub repository.
 
-### License
-This project is licensed under the MIT License. See the LICENSE file for details.# LectureBot
-# LectureBot
