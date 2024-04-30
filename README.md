@@ -7,11 +7,11 @@ Implemented this chatbot using the llama-2-70b language model. Here's an explana
 Purpose: The purpose of this code is to create a chatbot that can interact with users in a conversational manner. Users can ask questions about class lectures, and the chatbot will provide responses based on its understanding of the input.
 
 
-ConversationalRetrievalChain: This is the main component of the chatbot. It manages the conversation flow, retrieves relevant information from the document corpus, and generates responses to user queries.
-HuggingFaceEmbeddings: This model is used to embed the text data into vector representations that can be understood by the conversational models.
-Replicate (llama-2-70b): This is the conversational language model used by the chatbot. It is responsible for understanding user queries, generating responses, and maintaining context within the conversation.
-CharacterTextSplitter: This component splits the input text into smaller chunks for processing, as required by the underlying models.
-FAISS: This is the vector store used to index and search the document corpus efficiently.
+- ConversationalRetrievalChain: This is the main component of the chatbot. It manages the conversation flow, retrieves relevant information from the document corpus, and generates responses to user queries.
+- HuggingFaceEmbeddings: This model is used to embed the text data into vector representations that can be understood by the conversational models.
+llama-2-70b (Imported from Replicate Cloud API): This is the conversational language model used by the chatbot. It is responsible for understanding user queries, generating responses, and maintaining context within the conversation.
+- CharacterTextSplitter: This component splits the input text into smaller chunks for processing, as required by the underlying models.
+- FAISS: This is the vector store used to index and search the document corpus efficiently.
 Overall, this code sets up the necessary components to create a chatbot that can effectively respond to user queries about class lectures using the llama-2-70b language model.
 
 ![image](https://github.com/abhishict/LectureBot/assets/28643880/ca7c2457-ca72-4440-9012-434308894588)
